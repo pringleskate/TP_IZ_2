@@ -61,7 +61,10 @@ int process_input_files(char **input_files, char **output_files, int count_files
     }
 
     if (initialize_word_metrics(word_metrics, count_files, INITIAL_STORAGE_SIZE))
+    {
+        free(all_unique_words);
         return 1;
+    }
 
     int flag = 0;
     for (int i = 0; i < count_files; i++)
