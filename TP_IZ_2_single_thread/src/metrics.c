@@ -99,7 +99,7 @@ void update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int unique_
 
 int update_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
-    for (int i = 0; i < count_files; i++) ////проходим по массиву структур, количество которых соответствует обработанным файлам
+    for (int i = 0; i < count_files; i++)
     {
         int references = 0;
         for (int j = 0; j < all_unique_words[i]; j++) ////проходим по массиву, соответствующему количеству уникальных слов в каждом массиве внутри структур
