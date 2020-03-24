@@ -32,4 +32,11 @@ link_directories(../TP_IZ_2_single_thread/cmake-build-debug)
 
 add_executable(TP_IZ2_tests main.cpp tests.cpp)
 #add_executable(iz2_tests main.cpp unit_tests.cpp)
-target_link_libraries(TP_IZ2_tests gtest_main libTP_IZ_2_single_thread.so)
+#target_link_libraries(TP_IZ2_tests gtest_main libTP_IZ_2_single_thread.so)
+
+if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+    target_link_libraries(TP_IZ2_tests gtest_main libTP_IZ_2_single_thread.dylib)
+endif()
+if (${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+    target_link_libraries(TP_IZ2_tests gtest_main libTP_IZ_2_single_thread.so)
+endif()
