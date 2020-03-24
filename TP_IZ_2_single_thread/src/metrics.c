@@ -21,7 +21,7 @@ int get_metrics(FILE *input_file, Word_metrics *metrics)
 
     int all_scanned_words = 0;
 
-    while(fscanf(input_file, "%s", string) != EOF)
+    while(fscanf(input_file, "%19s", string) != EOF)
     {
         memset(ordered_word, 0, BUFFER_SIZE);
         int flag = 0;
