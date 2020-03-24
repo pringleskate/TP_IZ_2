@@ -24,13 +24,13 @@ int get_metrics(FILE *input_file, Word_metrics *metrics)
     while(fscanf(input_file, "%19s", string) != EOF)
     {
         memset(ordered_word, 0, BUFFER_SIZE);
-        int flag = 0;
 
         //проверочные функции для каждого слова
         put_in_order(string, ordered_word);
 
         if (strlen(ordered_word) > 0)
         {
+            int flag = 0;
             //проверку на то, есть ли слово уже в структуре
             //если оно есть, то возвращается индекс в массиве и увеличивается счетчик в существующей структу
             // если нет, то возвращается -1 и создается новая запись в структуре
