@@ -32,14 +32,17 @@ script:
     - cd cmake-build-debug
     - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
     - cmake --build .
-    - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc; fi
+    #- if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc; fi
+    - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c .; fi
+
 
     - cd ../../TP_IZ2_tests
     - mkdir cmake-build-debug
     - cd cmake-build-debug
     - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
     - cmake --build .
-    - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc; fi
+    #- if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc; fi
+    - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c .; fi
 
     - if [ $TRAVIS_OS_NAME = linux ]; then valgrind --error-exitcode=1 --leak-check=full --show-leak-kinds=all ./TP_IZ2_tests; fi
     - if [ $TRAVIS_OS_NAME = osx ]; then ./TP_IZ2_tests; fi
