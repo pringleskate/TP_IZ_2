@@ -1,0 +1,255 @@
+Word i
+TF 4.49
+IDF 0.12
+TF-IDF 0.56
+
+Word have
+TF 1.12
+IDF 0.25
+TF-IDF 0.28
+
+Word english
+TF 6.74
+IDF 0.38
+TF-IDF 2.53
+
+Word on
+TF 2.25
+IDF 0.50
+TF-IDF 1.12
+
+Word monday
+TF 1.12
+IDF 0.62
+TF-IDF 0.70
+
+Word wednesday
+TF 1.12
+IDF 0.75
+TF-IDF 0.84
+
+Word and
+TF 11.24
+IDF 0.88
+TF-IDF 9.83
+
+Word thursday
+TF 1.12
+IDF 1.00
+TF-IDF 1.12
+
+Word is
+TF 1.12
+IDF 1.12
+TF-IDF 1.26
+
+Word usually
+TF 1.12
+IDF 1.25
+TF-IDF 1.40
+
+Word the
+TF 2.25
+IDF 1.38
+TF-IDF 3.09
+
+Word second
+TF 1.12
+IDF 1.50
+TF-IDF 1.69
+
+Word lesson
+TF 2.25
+IDF 1.62
+TF-IDF 3.65
+
+Word at
+TF 2.25
+IDF 1.75
+TF-IDF 3.93
+
+Word we
+TF 6.74
+IDF 1.88
+TF-IDF 12.64
+
+Word speak
+TF 3.37
+IDF 2.00
+TF-IDF 6.74
+
+Word read
+TF 3.37
+IDF 2.12
+TF-IDF 7.16
+
+Word write
+TF 3.37
+IDF 2.25
+TF-IDF 7.58
+
+Word about
+TF 4.49
+IDF 2.38
+TF-IDF 10.67
+
+Word school
+TF 2.25
+IDF 2.50
+TF-IDF 5.62
+
+Word pupils
+TF 1.12
+IDF 2.62
+TF-IDF 2.95
+
+Word teachers
+TF 1.12
+IDF 2.75
+TF-IDF 3.09
+
+Word lessons
+TF 1.12
+IDF 2.88
+TF-IDF 3.23
+
+Word animals
+TF 1.12
+IDF 3.00
+TF-IDF 3.37
+
+Word nature
+TF 2.25
+IDF 3.12
+TF-IDF 7.02
+
+Word our
+TF 1.12
+IDF 3.25
+TF-IDF 3.65
+
+Word friends
+TF 1.12
+IDF 3.38
+TF-IDF 3.79
+
+Word sports
+TF 1.12
+IDF 3.50
+TF-IDF 3.93
+
+Word games
+TF 1.12
+IDF 3.62
+TF-IDF 4.07
+
+Word books
+TF 1.12
+IDF 3.75
+TF-IDF 4.21
+
+Word stories
+TF 1.12
+IDF 3.88
+TF-IDF 4.35
+
+Word children
+TF 1.12
+IDF 4.00
+TF-IDF 4.49
+
+Word life
+TF 1.12
+IDF 4.12
+TF-IDF 4.63
+
+Word so
+TF 1.12
+IDF 4.25
+TF-IDF 4.78
+
+Word letters
+TF 1.12
+IDF 4.38
+TF-IDF 4.92
+
+Word words
+TF 1.12
+IDF 4.50
+TF-IDF 5.06
+
+Word sentences
+TF 1.12
+IDF 4.62
+TF-IDF 5.20
+
+Word exercises
+TF 1.12
+IDF 4.75
+TF-IDF 5.34
+
+Word dictations
+TF 1.12
+IDF 4.88
+TF-IDF 5.48
+
+Word play
+TF 1.12
+IDF 5.00
+TF-IDF 5.62
+
+Word too
+TF 1.12
+IDF 5.12
+TF-IDF 5.76
+
+Word sing
+TF 1.12
+IDF 5.25
+TF-IDF 5.90
+
+Word songs
+TF 1.12
+IDF 5.38
+TF-IDF 6.04
+
+Word learn
+TF 1.12
+IDF 5.50
+TF-IDF 6.18
+
+Word poems
+TF 1.12
+IDF 5.62
+TF-IDF 6.32
+
+Word like
+TF 1.12
+IDF 5.75
+TF-IDF 6.46
+
+Word can
+TF 1.12
+IDF 5.88
+TF-IDF 6.60
+
+Word well
+TF 2.25
+IDF 6.00
+TF-IDF 13.48
+
+Word but
+TF 1.12
+IDF 6.12
+TF-IDF 6.88
+
+Word can’t
+TF 1.12
+IDF 6.25
+TF-IDF 7.02
+
+Word yet
+TF 1.12
+IDF 6.38
+TF-IDF 7.16
+

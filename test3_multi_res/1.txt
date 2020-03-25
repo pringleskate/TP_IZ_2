@@ -1,0 +1,610 @@
+Word hello
+TF 0.40
+IDF 0.12
+TF-IDF 0.05
+
+Word my
+TF 2.38
+IDF 0.25
+TF-IDF 0.60
+
+Word name
+TF 0.40
+IDF 0.38
+TF-IDF 0.15
+
+Word is
+TF 4.37
+IDF 0.50
+TF-IDF 2.18
+
+Word kate
+TF 0.40
+IDF 0.62
+TF-IDF 0.25
+
+Word surname
+TF 0.40
+IDF 0.75
+TF-IDF 0.30
+
+Word pavlova
+TF 0.40
+IDF 0.88
+TF-IDF 0.35
+
+Word i’m
+TF 1.19
+IDF 1.00
+TF-IDF 1.19
+
+Word seven
+TF 0.40
+IDF 1.12
+TF-IDF 0.45
+
+Word i
+TF 5.56
+IDF 1.25
+TF-IDF 6.94
+
+Word live
+TF 0.40
+IDF 1.38
+TF-IDF 0.55
+
+Word in
+TF 1.98
+IDF 1.50
+TF-IDF 2.98
+
+Word minsk
+TF 0.40
+IDF 1.62
+TF-IDF 0.64
+
+Word pushkin
+TF 0.40
+IDF 1.75
+TF-IDF 0.69
+
+Word street
+TF 0.40
+IDF 1.88
+TF-IDF 0.74
+
+Word go
+TF 1.19
+IDF 2.00
+TF-IDF 2.38
+
+Word to
+TF 2.38
+IDF 2.12
+TF-IDF 5.06
+
+Word school
+TF 1.59
+IDF 2.25
+TF-IDF 3.57
+
+Word number
+TF 0.40
+IDF 2.38
+TF-IDF 0.94
+
+Word 214
+TF 0.40
+IDF 2.50
+TF-IDF 0.99
+
+Word the
+TF 1.98
+IDF 2.62
+TF-IDF 5.21
+
+Word first
+TF 0.40
+IDF 2.75
+TF-IDF 1.09
+
+Word form
+TF 0.40
+IDF 2.88
+TF-IDF 1.14
+
+Word i’ve
+TF 0.79
+IDF 3.00
+TF-IDF 2.38
+
+Word got
+TF 2.78
+IDF 3.12
+TF-IDF 8.68
+
+Word a
+TF 7.14
+IDF 3.25
+TF-IDF 23.21
+
+Word family
+TF 0.79
+IDF 3.38
+TF-IDF 2.68
+
+Word it
+TF 3.57
+IDF 3.50
+TF-IDF 12.50
+
+Word small
+TF 1.59
+IDF 3.62
+TF-IDF 5.75
+
+Word we
+TF 1.59
+IDF 3.75
+TF-IDF 5.95
+
+Word are
+TF 1.19
+IDF 3.88
+TF-IDF 4.61
+
+Word of
+TF 0.40
+IDF 4.00
+TF-IDF 1.59
+
+Word four
+TF 0.79
+IDF 4.12
+TF-IDF 3.27
+
+Word father
+TF 0.79
+IDF 4.25
+TF-IDF 3.37
+
+Word mother
+TF 0.79
+IDF 4.38
+TF-IDF 3.47
+
+Word and
+TF 2.78
+IDF 4.50
+TF-IDF 12.50
+
+Word brother
+TF 0.79
+IDF 4.62
+TF-IDF 3.67
+
+Word haven’t
+TF 0.40
+IDF 4.75
+TF-IDF 1.88
+
+Word sister
+TF 0.40
+IDF 4.88
+TF-IDF 1.93
+
+Word isan
+TF 0.40
+IDF 5.00
+TF-IDF 1.98
+
+Word engineer
+TF 0.40
+IDF 5.12
+TF-IDF 2.03
+
+Word he
+TF 1.59
+IDF 5.25
+TF-IDF 8.33
+
+Word works
+TF 0.79
+IDF 5.38
+TF-IDF 4.27
+
+Word plant
+TF 0.40
+IDF 5.50
+TF-IDF 2.18
+
+Word teacher
+TF 0.40
+IDF 5.62
+TF-IDF 2.23
+
+Word she
+TF 0.40
+IDF 5.75
+TF-IDF 2.28
+
+Word at
+TF 0.79
+IDF 5.88
+TF-IDF 4.66
+
+Word little
+TF 0.40
+IDF 6.00
+TF-IDF 2.38
+
+Word doesn’t
+TF 0.40
+IDF 6.12
+TF-IDF 2.43
+
+Word goes
+TF 0.40
+IDF 6.25
+TF-IDF 2.48
+
+Word kindergarten
+TF 0.40
+IDF 6.38
+TF-IDF 2.53
+
+Word like
+TF 1.98
+IDF 6.50
+TF-IDF 12.90
+
+Word play
+TF 0.79
+IDF 6.62
+TF-IDF 5.26
+
+Word have
+TF 2.38
+IDF 6.75
+TF-IDF 16.07
+
+Word many
+TF 1.19
+IDF 6.88
+TF-IDF 8.18
+
+Word toys
+TF 0.40
+IDF 7.00
+TF-IDF 2.78
+
+Word teddybear
+TF 0.40
+IDF 7.12
+TF-IDF 2.83
+
+Word dolls
+TF 0.40
+IDF 7.25
+TF-IDF 2.88
+
+Word ball
+TF 0.40
+IDF 7.38
+TF-IDF 2.93
+
+Word toy
+TF 0.40
+IDF 7.50
+TF-IDF 2.98
+
+Word monkey
+TF 0.40
+IDF 7.62
+TF-IDF 3.03
+
+Word doll’s
+TF 0.79
+IDF 7.75
+TF-IDF 6.15
+
+Word house
+TF 0.79
+IDF 7.88
+TF-IDF 6.25
+
+Word very
+TF 1.19
+IDF 8.00
+TF-IDF 9.52
+
+Word much
+TF 0.40
+IDF 8.12
+TF-IDF 3.22
+
+Word big
+TF 0.79
+IDF 8.25
+TF-IDF 6.55
+
+Word pink
+TF 0.40
+IDF 8.38
+TF-IDF 3.32
+
+Word nice
+TF 1.19
+IDF 8.50
+TF-IDF 10.12
+
+Word cat
+TF 0.79
+IDF 8.62
+TF-IDF 6.85
+
+Word grey
+TF 0.40
+IDF 8.75
+TF-IDF 3.47
+
+Word has
+TF 0.40
+IDF 8.88
+TF-IDF 3.52
+
+Word blue
+TF 0.40
+IDF 9.00
+TF-IDF 3.57
+
+Word eyes
+TF 0.40
+IDF 9.12
+TF-IDF 3.62
+
+Word funny
+TF 0.40
+IDF 9.25
+TF-IDF 3.67
+
+Word nose
+TF 0.40
+IDF 9.38
+TF-IDF 3.72
+
+Word mouth
+TF 0.40
+IDF 9.50
+TF-IDF 3.77
+
+Word sharp
+TF 0.40
+IDF 9.62
+TF-IDF 3.82
+
+Word teeth
+TF 0.40
+IDF 9.75
+TF-IDF 3.87
+
+Word its
+TF 0.40
+IDF 9.88
+TF-IDF 3.92
+
+Word ears
+TF 0.40
+IDF 10.00
+TF-IDF 3.97
+
+Word can
+TF 1.19
+IDF 10.12
+TF-IDF 12.05
+
+Word hideandseek
+TF 0.40
+IDF 10.25
+TF-IDF 4.07
+
+Word love
+TF 0.40
+IDF 10.38
+TF-IDF 4.12
+
+Word loves
+TF 0.40
+IDF 10.50
+TF-IDF 4.17
+
+Word me
+TF 0.40
+IDF 10.62
+TF-IDF 4.22
+
+Word too
+TF 0.40
+IDF 10.75
+TF-IDF 4.27
+
+Word pupil
+TF 0.40
+IDF 10.88
+TF-IDF 4.32
+
+Word friends
+TF 0.40
+IDF 11.00
+TF-IDF 4.37
+
+Word our
+TF 0.79
+IDF 11.12
+TF-IDF 8.83
+
+Word classroom
+TF 0.79
+IDF 11.25
+TF-IDF 8.93
+
+Word large
+TF 0.40
+IDF 11.38
+TF-IDF 4.51
+
+Word you
+TF 0.40
+IDF 11.50
+TF-IDF 4.56
+
+Word see
+TF 0.40
+IDF 11.62
+TF-IDF 4.61
+
+Word twelve
+TF 0.40
+IDF 11.75
+TF-IDF 4.66
+
+Word desks
+TF 0.79
+IDF 11.88
+TF-IDF 9.42
+
+Word chairs
+TF 0.40
+IDF 12.00
+TF-IDF 4.76
+
+Word teacher’s
+TF 0.40
+IDF 12.12
+TF-IDF 4.81
+
+Word table
+TF 0.40
+IDF 12.25
+TF-IDF 4.86
+
+Word blackboard
+TF 0.40
+IDF 12.38
+TF-IDF 4.91
+
+Word two
+TF 0.40
+IDF 12.50
+TF-IDF 4.96
+
+Word bookcases
+TF 0.40
+IDF 12.62
+TF-IDF 5.01
+
+Word lessons
+TF 0.40
+IDF 12.75
+TF-IDF 5.06
+
+Word pens
+TF 0.40
+IDF 12.88
+TF-IDF 5.11
+
+Word pencils
+TF 0.40
+IDF 13.00
+TF-IDF 5.16
+
+Word pencilboxes
+TF 0.40
+IDF 13.12
+TF-IDF 5.21
+
+Word or
+TF 0.40
+IDF 13.25
+TF-IDF 5.26
+
+Word pencilcases
+TF 0.40
+IDF 13.38
+TF-IDF 5.31
+
+Word rulers
+TF 0.40
+IDF 13.50
+TF-IDF 5.36
+
+Word erasers
+TF 0.40
+IDF 13.62
+TF-IDF 5.41
+
+Word textbooks
+TF 0.40
+IDF 13.75
+TF-IDF 5.46
+
+Word exercisebooks
+TF 0.40
+IDF 13.88
+TF-IDF 5.51
+
+Word recordbooks
+TF 0.40
+IDF 14.00
+TF-IDF 5.56
+
+Word on
+TF 0.40
+IDF 14.12
+TF-IDF 5.61
+
+Word read
+TF 0.79
+IDF 14.25
+TF-IDF 11.31
+
+Word well
+TF 0.40
+IDF 14.38
+TF-IDF 5.70
+
+Word fairytales
+TF 0.40
+IDF 14.50
+TF-IDF 5.75
+
+Word they
+TF 0.40
+IDF 14.62
+TF-IDF 5.80
+
+Word interesting
+TF 0.40
+IDF 14.75
+TF-IDF 5.85
+
+Word «cinderella»
+TF 0.40
+IDF 14.88
+TF-IDF 5.90
+
+Word «pinocchio»
+TF 0.40
+IDF 15.00
+TF-IDF 5.95
+
+Word best
+TF 0.40
+IDF 15.12
+TF-IDF 6.00
+
+Word bye
+TF 0.40
+IDF 15.25
+TF-IDF 6.05
+

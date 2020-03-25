@@ -1,0 +1,510 @@
+Word it
+TF 0.62
+IDF 0.12
+TF-IDF 0.08
+
+Word goes
+TF 0.62
+IDF 0.25
+TF-IDF 0.16
+
+Word without
+TF 0.62
+IDF 0.38
+TF-IDF 0.23
+
+Word saying
+TF 0.62
+IDF 0.50
+TF-IDF 0.31
+
+Word books
+TF 3.11
+IDF 0.62
+TF-IDF 1.94
+
+Word are
+TF 1.24
+IDF 0.75
+TF-IDF 0.93
+
+Word our
+TF 0.62
+IDF 0.88
+TF-IDF 0.54
+
+Word teachers
+TF 0.62
+IDF 1.00
+TF-IDF 0.62
+
+Word and
+TF 6.21
+IDF 1.12
+TF-IDF 6.99
+
+Word friends
+TF 0.62
+IDF 1.25
+TF-IDF 0.78
+
+Word they
+TF 1.24
+IDF 1.38
+TF-IDF 1.71
+
+Word teach
+TF 0.62
+IDF 1.50
+TF-IDF 0.93
+
+Word us
+TF 2.48
+IDF 1.62
+TF-IDF 4.04
+
+Word to
+TF 2.48
+IDF 1.75
+TF-IDF 4.35
+
+Word be
+TF 0.62
+IDF 1.88
+TF-IDF 1.16
+
+Word kind
+TF 1.24
+IDF 2.00
+TF-IDF 2.48
+
+Word clever
+TF 0.62
+IDF 2.12
+TF-IDF 1.32
+
+Word polite
+TF 0.62
+IDF 2.25
+TF-IDF 1.40
+
+Word hardworking
+TF 0.62
+IDF 2.38
+TF-IDF 1.48
+
+Word friendly
+TF 0.62
+IDF 2.50
+TF-IDF 1.55
+
+Word help
+TF 0.62
+IDF 2.62
+TF-IDF 1.63
+
+Word learn
+TF 0.62
+IDF 2.75
+TF-IDF 1.71
+
+Word more
+TF 0.62
+IDF 2.88
+TF-IDF 1.79
+
+Word about
+TF 1.86
+IDF 3.00
+TF-IDF 5.59
+
+Word nature
+TF 0.62
+IDF 3.12
+TF-IDF 1.94
+
+Word the
+TF 3.11
+IDF 3.25
+TF-IDF 10.09
+
+Word world
+TF 0.62
+IDF 3.38
+TF-IDF 2.10
+
+Word around
+TF 0.62
+IDF 3.50
+TF-IDF 2.17
+
+Word many
+TF 0.62
+IDF 3.62
+TF-IDF 2.25
+
+Word other
+TF 0.62
+IDF 3.75
+TF-IDF 2.33
+
+Word interesting
+TF 0.62
+IDF 3.88
+TF-IDF 2.41
+
+Word things
+TF 0.62
+IDF 4.00
+TF-IDF 2.48
+
+Word there
+TF 0.62
+IDF 4.12
+TF-IDF 2.56
+
+Word a
+TF 1.24
+IDF 4.25
+TF-IDF 5.28
+
+Word lot
+TF 0.62
+IDF 4.38
+TF-IDF 2.72
+
+Word of
+TF 2.48
+IDF 4.50
+TF-IDF 11.18
+
+Word on
+TF 1.24
+IDF 4.62
+TF-IDF 5.75
+
+Word history
+TF 0.62
+IDF 4.75
+TF-IDF 2.95
+
+Word animals
+TF 0.62
+IDF 4.88
+TF-IDF 3.03
+
+Word travellers
+TF 0.62
+IDF 5.00
+TF-IDF 3.11
+
+Word children
+TF 2.48
+IDF 5.12
+TF-IDF 12.73
+
+Word school
+TF 0.62
+IDF 5.25
+TF-IDF 3.26
+
+Word so
+TF 0.62
+IDF 5.38
+TF-IDF 3.34
+
+Word like
+TF 1.24
+IDF 5.50
+TF-IDF 6.83
+
+Word read
+TF 1.24
+IDF 5.62
+TF-IDF 6.99
+
+Word adventure
+TF 0.62
+IDF 5.75
+TF-IDF 3.57
+
+Word magic
+TF 1.24
+IDF 5.88
+TF-IDF 7.30
+
+Word science
+TF 0.62
+IDF 6.00
+TF-IDF 3.73
+
+Word fiction
+TF 0.62
+IDF 6.12
+TF-IDF 3.80
+
+Word detective
+TF 0.62
+IDF 6.25
+TF-IDF 3.88
+
+Word stories
+TF 1.86
+IDF 6.38
+TF-IDF 11.88
+
+Word enjoy
+TF 0.62
+IDF 6.50
+TF-IDF 4.04
+
+Word short
+TF 0.62
+IDF 6.62
+TF-IDF 4.11
+
+Word novels
+TF 0.62
+IDF 6.75
+TF-IDF 4.19
+
+Word fairytales
+TF 1.24
+IDF 6.88
+TF-IDF 8.54
+
+Word fables
+TF 0.62
+IDF 7.00
+TF-IDF 4.35
+
+Word poems
+TF 0.62
+IDF 7.12
+TF-IDF 4.43
+
+Word we
+TF 1.24
+IDF 7.25
+TF-IDF 9.01
+
+Word must
+TF 1.24
+IDF 7.38
+TF-IDF 9.16
+
+Word keep
+TF 0.62
+IDF 7.50
+TF-IDF 4.66
+
+Word clean
+TF 0.62
+IDF 7.62
+TF-IDF 4.74
+
+Word tidy
+TF 0.62
+IDF 7.75
+TF-IDF 4.81
+
+Word not
+TF 0.62
+IDF 7.88
+TF-IDF 4.89
+
+Word spoil
+TF 0.62
+IDF 8.00
+TF-IDF 4.97
+
+Word them
+TF 0.62
+IDF 8.12
+TF-IDF 5.05
+
+Word i
+TF 1.24
+IDF 8.25
+TF-IDF 10.25
+
+Word am
+TF 0.62
+IDF 8.38
+TF-IDF 5.20
+
+Word fond
+TF 0.62
+IDF 8.50
+TF-IDF 5.28
+
+Word reading
+TF 0.62
+IDF 8.62
+TF-IDF 5.36
+
+Word too
+TF 0.62
+IDF 8.75
+TF-IDF 5.43
+
+Word my
+TF 1.24
+IDF 8.88
+TF-IDF 11.02
+
+Word favourite
+TF 1.24
+IDF 9.00
+TF-IDF 11.18
+
+Word book
+TF 1.86
+IDF 9.12
+TF-IDF 17.00
+
+Word is
+TF 3.73
+IDF 9.25
+TF-IDF 34.47
+
+Word «mary
+TF 0.62
+IDF 9.38
+TF-IDF 5.82
+
+Word poppins»
+TF 0.62
+IDF 9.50
+TF-IDF 5.90
+
+Word author
+TF 0.62
+IDF 9.62
+TF-IDF 5.98
+
+Word pamela
+TF 0.62
+IDF 9.75
+TF-IDF 6.06
+
+Word travers
+TF 0.62
+IDF 9.88
+TF-IDF 6.13
+
+Word she
+TF 1.86
+IDF 10.00
+TF-IDF 18.63
+
+Word famous
+TF 0.62
+IDF 10.12
+TF-IDF 6.29
+
+Word english
+TF 0.62
+IDF 10.25
+TF-IDF 6.37
+
+Word writer
+TF 0.62
+IDF 10.38
+TF-IDF 6.44
+
+Word tells
+TF 0.62
+IDF 10.50
+TF-IDF 6.52
+
+Word wonderful
+TF 0.62
+IDF 10.62
+TF-IDF 6.60
+
+Word adventures
+TF 0.62
+IDF 10.75
+TF-IDF 6.68
+
+Word with
+TF 1.24
+IDF 10.88
+TF-IDF 13.51
+
+Word their
+TF 0.62
+IDF 11.00
+TF-IDF 6.83
+
+Word nurse
+TF 0.62
+IDF 11.12
+TF-IDF 6.91
+
+Word mary
+TF 1.24
+IDF 11.25
+TF-IDF 13.98
+
+Word poppins
+TF 1.24
+IDF 11.38
+TF-IDF 14.13
+
+Word character
+TF 0.62
+IDF 11.50
+TF-IDF 7.14
+
+Word strict
+TF 0.62
+IDF 11.62
+TF-IDF 7.22
+
+Word at
+TF 0.62
+IDF 11.75
+TF-IDF 7.30
+
+Word same
+TF 0.62
+IDF 11.88
+TF-IDF 7.38
+
+Word time
+TF 0.62
+IDF 12.00
+TF-IDF 7.45
+
+Word joyful
+TF 0.62
+IDF 12.12
+TF-IDF 7.53
+
+Word tactful
+TF 0.62
+IDF 12.25
+TF-IDF 7.61
+
+Word wellbred
+TF 0.62
+IDF 12.38
+TF-IDF 7.69
+
+Word very
+TF 0.62
+IDF 12.50
+TF-IDF 7.76
+
+Word pretty
+TF 0.62
+IDF 12.62
+TF-IDF 7.84
+
+Word popular
+TF 0.62
+IDF 12.75
+TF-IDF 7.92
+

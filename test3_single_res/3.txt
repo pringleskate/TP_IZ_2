@@ -1,0 +1,190 @@
+Word google
+TF 7.55
+IDF 0.12
+TF-IDF 0.94
+
+Word news
+TF 5.66
+IDF 0.25
+TF-IDF 1.42
+
+Word is
+TF 3.77
+IDF 0.38
+TF-IDF 1.42
+
+Word a
+TF 5.66
+IDF 0.50
+TF-IDF 2.83
+
+Word aggregator
+TF 1.89
+IDF 0.62
+TF-IDF 1.18
+
+Word app
+TF 5.66
+IDF 0.75
+TF-IDF 4.25
+
+Word developed
+TF 1.89
+IDF 0.88
+TF-IDF 1.65
+
+Word by
+TF 1.89
+IDF 1.00
+TF-IDF 1.89
+
+Word it
+TF 1.89
+IDF 1.12
+TF-IDF 2.12
+
+Word presents
+TF 1.89
+IDF 1.25
+TF-IDF 2.36
+
+Word continuous
+TF 1.89
+IDF 1.38
+TF-IDF 2.59
+
+Word customizable
+TF 1.89
+IDF 1.50
+TF-IDF 2.83
+
+Word flow
+TF 1.89
+IDF 1.62
+TF-IDF 3.07
+
+Word of
+TF 3.77
+IDF 1.75
+TF-IDF 6.60
+
+Word articles
+TF 1.89
+IDF 1.88
+TF-IDF 3.54
+
+Word organized
+TF 1.89
+IDF 2.00
+TF-IDF 3.77
+
+Word from
+TF 1.89
+IDF 2.12
+TF-IDF 4.01
+
+Word thousands
+TF 1.89
+IDF 2.25
+TF-IDF 4.25
+
+Word publishers
+TF 1.89
+IDF 2.38
+TF-IDF 4.48
+
+Word and
+TF 5.66
+IDF 2.50
+TF-IDF 14.15
+
+Word magazines
+TF 1.89
+IDF 2.62
+TF-IDF 4.95
+
+Word available
+TF 1.89
+IDF 2.75
+TF-IDF 5.19
+
+Word as
+TF 1.89
+IDF 2.88
+TF-IDF 5.42
+
+Word an
+TF 1.89
+IDF 3.00
+TF-IDF 5.66
+
+Word on
+TF 1.89
+IDF 3.12
+TF-IDF 5.90
+
+Word android
+TF 1.89
+IDF 3.25
+TF-IDF 6.13
+
+Word ios
+TF 1.89
+IDF 3.38
+TF-IDF 6.37
+
+Word the
+TF 3.77
+IDF 3.50
+TF-IDF 13.21
+
+Word web
+TF 1.89
+IDF 3.62
+TF-IDF 6.84
+
+Word released
+TF 1.89
+IDF 3.75
+TF-IDF 7.08
+
+Word beta
+TF 1.89
+IDF 3.88
+TF-IDF 7.31
+
+Word version
+TF 1.89
+IDF 4.00
+TF-IDF 7.55
+
+Word in
+TF 3.77
+IDF 4.12
+TF-IDF 15.57
+
+Word september
+TF 1.89
+IDF 4.25
+TF-IDF 8.02
+
+Word 2002
+TF 1.89
+IDF 4.38
+TF-IDF 8.25
+
+Word official
+TF 1.89
+IDF 4.50
+TF-IDF 8.49
+
+Word january
+TF 1.89
+IDF 4.62
+TF-IDF 8.73
+
+Word 2006
+TF 1.89
+IDF 4.75
+TF-IDF 8.96
+

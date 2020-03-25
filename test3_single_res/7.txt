@@ -1,0 +1,520 @@
+Word i’m
+TF 1.65
+IDF 0.12
+TF-IDF 0.21
+
+Word jane
+TF 0.55
+IDF 0.25
+TF-IDF 0.14
+
+Word nine
+TF 0.55
+IDF 0.38
+TF-IDF 0.21
+
+Word a
+TF 1.65
+IDF 0.50
+TF-IDF 0.82
+
+Word pupil
+TF 0.55
+IDF 0.62
+TF-IDF 0.34
+
+Word of
+TF 0.55
+IDF 0.75
+TF-IDF 0.41
+
+Word the
+TF 3.30
+IDF 0.88
+TF-IDF 2.88
+
+Word third
+TF 0.55
+IDF 1.00
+TF-IDF 0.55
+
+Word form
+TF 0.55
+IDF 1.12
+TF-IDF 0.62
+
+Word i
+TF 8.24
+IDF 1.25
+TF-IDF 10.30
+
+Word go
+TF 2.75
+IDF 1.38
+TF-IDF 3.78
+
+Word to
+TF 2.20
+IDF 1.50
+TF-IDF 3.30
+
+Word school
+TF 1.65
+IDF 1.62
+TF-IDF 2.68
+
+Word every
+TF 0.55
+IDF 1.75
+TF-IDF 0.96
+
+Word day
+TF 0.55
+IDF 1.88
+TF-IDF 1.03
+
+Word usually
+TF 1.10
+IDF 2.00
+TF-IDF 2.20
+
+Word get
+TF 0.55
+IDF 2.12
+TF-IDF 1.17
+
+Word up
+TF 0.55
+IDF 2.25
+TF-IDF 1.24
+
+Word at
+TF 3.85
+IDF 2.38
+TF-IDF 9.13
+
+Word 7
+TF 0.55
+IDF 2.50
+TF-IDF 1.37
+
+Word o’clock
+TF 3.30
+IDF 2.62
+TF-IDF 8.65
+
+Word then
+TF 1.10
+IDF 2.75
+TF-IDF 3.02
+
+Word do
+TF 2.20
+IDF 2.88
+TF-IDF 6.32
+
+Word exercises
+TF 0.55
+IDF 3.00
+TF-IDF 1.65
+
+Word take
+TF 0.55
+IDF 3.12
+TF-IDF 1.72
+
+Word shower
+TF 0.55
+IDF 3.25
+TF-IDF 1.79
+
+Word wash
+TF 1.10
+IDF 3.38
+TF-IDF 3.71
+
+Word my
+TF 3.85
+IDF 3.50
+TF-IDF 13.46
+
+Word face
+TF 0.55
+IDF 3.62
+TF-IDF 1.99
+
+Word and
+TF 2.20
+IDF 3.75
+TF-IDF 8.24
+
+Word hands
+TF 1.10
+IDF 3.88
+TF-IDF 4.26
+
+Word clean
+TF 0.55
+IDF 4.00
+TF-IDF 2.20
+
+Word teeth
+TF 0.55
+IDF 4.12
+TF-IDF 2.27
+
+Word dress
+TF 0.55
+IDF 4.25
+TF-IDF 2.34
+
+Word have
+TF 2.75
+IDF 4.38
+TF-IDF 12.02
+
+Word breakfast
+TF 0.55
+IDF 4.50
+TF-IDF 2.47
+
+Word 8
+TF 0.55
+IDF 4.62
+TF-IDF 2.54
+
+Word classes
+TF 0.55
+IDF 4.75
+TF-IDF 2.61
+
+Word begin
+TF 0.55
+IDF 4.88
+TF-IDF 2.68
+
+Word we
+TF 1.10
+IDF 5.00
+TF-IDF 5.49
+
+Word five
+TF 0.55
+IDF 5.12
+TF-IDF 2.82
+
+Word lessons
+TF 1.10
+IDF 5.25
+TF-IDF 5.77
+
+Word lunch
+TF 0.55
+IDF 5.38
+TF-IDF 2.95
+
+Word after
+TF 1.10
+IDF 5.50
+TF-IDF 6.04
+
+Word second
+TF 0.55
+IDF 5.62
+TF-IDF 3.09
+
+Word lesson
+TF 0.55
+IDF 5.75
+TF-IDF 3.16
+
+Word when
+TF 1.10
+IDF 5.88
+TF-IDF 6.46
+
+Word are
+TF 0.55
+IDF 6.00
+TF-IDF 3.30
+
+Word over
+TF 0.55
+IDF 6.12
+TF-IDF 3.37
+
+Word home
+TF 1.10
+IDF 6.25
+TF-IDF 6.87
+
+Word come
+TF 0.55
+IDF 6.38
+TF-IDF 3.50
+
+Word one
+TF 0.55
+IDF 6.50
+TF-IDF 3.57
+
+Word dinner
+TF 1.10
+IDF 6.62
+TF-IDF 7.28
+
+Word it
+TF 0.55
+IDF 6.75
+TF-IDF 3.71
+
+Word is
+TF 1.10
+IDF 6.88
+TF-IDF 7.55
+
+Word always
+TF 0.55
+IDF 7.00
+TF-IDF 3.85
+
+Word very
+TF 0.55
+IDF 7.12
+TF-IDF 3.91
+
+Word tasty
+TF 0.55
+IDF 7.25
+TF-IDF 3.98
+
+Word for
+TF 0.55
+IDF 7.38
+TF-IDF 4.05
+
+Word walk
+TF 0.55
+IDF 7.50
+TF-IDF 4.12
+
+Word or
+TF 1.65
+IDF 7.62
+TF-IDF 12.57
+
+Word read
+TF 1.10
+IDF 7.75
+TF-IDF 8.52
+
+Word books
+TF 0.55
+IDF 7.88
+TF-IDF 4.33
+
+Word sometimes
+TF 0.55
+IDF 8.00
+TF-IDF 4.40
+
+Word watch
+TF 1.10
+IDF 8.12
+TF-IDF 8.93
+
+Word tv
+TF 1.10
+IDF 8.25
+TF-IDF 9.07
+
+Word an
+TF 0.55
+IDF 8.38
+TF-IDF 4.60
+
+Word interesting
+TF 0.55
+IDF 8.50
+TF-IDF 4.67
+
+Word film
+TF 0.55
+IDF 8.62
+TF-IDF 4.74
+
+Word on
+TF 0.55
+IDF 8.75
+TF-IDF 4.81
+
+Word 4
+TF 0.55
+IDF 8.88
+TF-IDF 4.88
+
+Word homework
+TF 0.55
+IDF 9.00
+TF-IDF 4.95
+
+Word 6
+TF 0.55
+IDF 9.12
+TF-IDF 5.01
+
+Word supper
+TF 0.55
+IDF 9.25
+TF-IDF 5.08
+
+Word in
+TF 1.10
+IDF 9.38
+TF-IDF 10.30
+
+Word evening
+TF 0.55
+IDF 9.50
+TF-IDF 5.22
+
+Word help
+TF 0.55
+IDF 9.62
+TF-IDF 5.29
+
+Word parents
+TF 0.55
+IDF 9.75
+TF-IDF 5.36
+
+Word about
+TF 0.55
+IDF 9.88
+TF-IDF 5.43
+
+Word house
+TF 0.55
+IDF 10.00
+TF-IDF 5.49
+
+Word play
+TF 1.10
+IDF 10.12
+TF-IDF 11.13
+
+Word chess
+TF 0.55
+IDF 10.25
+TF-IDF 5.63
+
+Word computer
+TF 0.55
+IDF 10.38
+TF-IDF 5.70
+
+Word games
+TF 0.55
+IDF 10.50
+TF-IDF 5.77
+
+Word with
+TF 1.10
+IDF 10.62
+TF-IDF 11.68
+
+Word father
+TF 0.55
+IDF 10.75
+TF-IDF 5.91
+
+Word friends
+TF 0.55
+IDF 10.88
+TF-IDF 5.98
+
+Word 9
+TF 0.55
+IDF 11.00
+TF-IDF 6.04
+
+Word bed
+TF 0.55
+IDF 11.12
+TF-IDF 6.11
+
+Word like
+TF 0.55
+IDF 11.25
+TF-IDF 6.18
+
+Word proverb
+TF 0.55
+IDF 11.38
+TF-IDF 6.25
+
+Word «never
+TF 0.55
+IDF 11.50
+TF-IDF 6.32
+
+Word put
+TF 0.55
+IDF 11.62
+TF-IDF 6.39
+
+Word off
+TF 0.55
+IDF 11.75
+TF-IDF 6.46
+
+Word till
+TF 0.55
+IDF 11.88
+TF-IDF 6.52
+
+Word tomorrow
+TF 0.55
+IDF 12.00
+TF-IDF 6.59
+
+Word what
+TF 0.55
+IDF 12.12
+TF-IDF 6.66
+
+Word you
+TF 0.55
+IDF 12.25
+TF-IDF 6.73
+
+Word can
+TF 0.55
+IDF 12.38
+TF-IDF 6.80
+
+Word today»
+TF 0.55
+IDF 12.50
+TF-IDF 6.87
+
+Word so
+TF 0.55
+IDF 12.62
+TF-IDF 6.94
+
+Word try
+TF 0.55
+IDF 12.75
+TF-IDF 7.01
+
+Word everything
+TF 0.55
+IDF 12.88
+TF-IDF 7.07
+
+Word time
+TF 0.55
+IDF 13.00
+TF-IDF 7.14
+

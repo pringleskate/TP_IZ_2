@@ -17,7 +17,7 @@ typedef struct Word_metrics {
 } Word_metrics;
 
 #define INITIAL_STORAGE_SIZE 800
-#define BUFFER_SIZE 20
+#define BUFFER_SIZE 30
 
 int count_TF_IDF_metrics(int argc, char *argv[]);
 

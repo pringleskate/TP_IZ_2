@@ -2,17 +2,36 @@
 // Created by ekaterina on 24.03.2020.
 //
 
-#include "../inc/library.h"
+#include "../inc/library_static.h"
 
-int get_metrics(FILE *input_file, Word_metrics *metrics)
+
+void  multi_call_get_metrics(void *th_data)
+{
+    thr_data * data = (thr_data*)th_data;
+    for (int i = data->start_index; i < data->stop_index; i++)
+    {
+        FILE *input_file = fopen(data->input_files[i], "r");
+        if (input_file == NULL)
+            return;
+
+        ////функция сбора из файла уникальных слов и подсчета tf-метрики для них
+        data->all_unique_words[i] = multi_get_metrics(input_file, &(data->word_metrics[i]));
+        if (data->all_unique_words[i] != -1)
+            (data->flags[i])++;
+        fclose(input_file);
+    }
+}
+
+
+int multi_get_metrics(FILE *input_file, Word_metrics *metrics)
 {
     char *string = (char *) malloc(BUFFER_SIZE * sizeof(char));
     char *ordered_word = (char *) malloc(BUFFER_SIZE * sizeof(char));
 
     if ((string == NULL) || (ordered_word == NULL))
     {
-        clear_string(string);
-        clear_string(ordered_word);
+        multi_clear_string(string);
+        multi_clear_string(ordered_word);
         printf("Error with allocating memory for buffer strings\n");
         return -1;
     }
@@ -26,7 +45,7 @@ int get_metrics(FILE *input_file, Word_metrics *metrics)
         memset(ordered_word, 0, BUFFER_SIZE);
 
         //проверочные функции для каждого слова
-        put_in_order(string, ordered_word);
+        multi_put_in_order(string, ordered_word);
 
         if (strlen(ordered_word) > 0)
         {
@@ -34,8 +53,8 @@ int get_metrics(FILE *input_file, Word_metrics *metrics)
             //проверку на то, есть ли слово уже в структуре
             //если оно есть, то возвращается индекс в массиве и увеличивается счетчик в существующей структу
             // если нет, то возвращается -1 и создается новая запись в структуре
-            flag = check_existing_word_index(metrics, ordered_word, unique_words);
-            if (update_word_metrics(metrics, ordered_word, flag, &unique_words))
+            flag = multi_check_existing_word_index(metrics, ordered_word, unique_words);
+            if (multi_update_word_metrics(metrics, ordered_word, flag, &unique_words))
             {
                 printf("Error with updating data in metrics structures\n");
                 break;
@@ -46,7 +65,7 @@ int get_metrics(FILE *input_file, Word_metrics *metrics)
         memset(string, 0, BUFFER_SIZE);
     }
 
-    update_tf_metrics(metrics, all_scanned_words, unique_words);
+    multi_update_tf_metrics(metrics, all_scanned_words, unique_words);
 
     free(string);
     free(ordered_word);
@@ -56,7 +75,7 @@ int get_metrics(FILE *input_file, Word_metrics *metrics)
 
 
 
-int update_word_metrics(Word_metrics *metrics, char *ordered_word, int flag, int *unique_words)
+int multi_update_word_metrics(Word_metrics *metrics, char *ordered_word, int flag, int *unique_words)
 {
     if (flag == -1)
     {
@@ -64,7 +83,7 @@ int update_word_metrics(Word_metrics *metrics, char *ordered_word, int flag, int
         (metrics->quantity[*unique_words]) = 1;
         (*unique_words)++;
 
-        if ((check_existing_word_index(metrics, ordered_word, *unique_words)) == -1)
+        if ((multi_check_existing_word_index(metrics, ordered_word, *unique_words)) == -1)
             return 1;
     }
 
@@ -75,7 +94,7 @@ int update_word_metrics(Word_metrics *metrics, char *ordered_word, int flag, int
 }
 
 
-int check_existing_word_index(Word_metrics *metrics, char *ordered_word, int unique_words)
+int multi_check_existing_word_index(Word_metrics *metrics, char *ordered_word, int unique_words)
 {
     for (int i = 0; i < unique_words; i++)
     {
@@ -87,7 +106,7 @@ int check_existing_word_index(Word_metrics *metrics, char *ordered_word, int uni
 
 
 
-void update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int unique_words)
+void multi_update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int unique_words)
 {
     for (int i = 0; i < unique_words; i++)
     {
@@ -97,7 +116,7 @@ void update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int unique_
 }
 
 
-int update_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
+int multi_update_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
     for (int i = 0; i < count_files; i++)
     {
@@ -119,7 +138,7 @@ int update_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_uni
 }
 
 
-void update_tf_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
+void multi_update_tf_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
     for (int i = 0; i < count_files; i++) ////проходим по массиву структур, количество которых соответствует обработанным файлам
     {
@@ -129,25 +148,26 @@ void update_tf_idf_metrics(Word_metrics *word_metrics, int count_files, int *all
 }
 
 
-int write_results_to_files(char **output_files, Word_metrics *word_metrics, int count_files, int *all_unique_words)
+int multi_write_results_to_files(char **input_files, Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
     for (int i = 0; i < count_files; i++)
     {
-        FILE *file = fopen(output_files[i], "w");
+        FILE *file = fopen(input_files[i], "w");
         if (file == NULL)
         {
             printf("File cannot be opened for writing up results\n");
             return 1;
         }
 
-        write_results(file, &word_metrics[i], all_unique_words[i]);
+        multi_write_results(file, &word_metrics[i], all_unique_words[i]);
+
         fclose(file);
     }
     return 0;
 }
 
 
-void write_results(FILE *output_file, Word_metrics *metrics, int unique_words)
+void multi_write_results(FILE *output_file, Word_metrics *metrics, int unique_words)
 {
     for (int i = 0; i < unique_words; i++)
     {

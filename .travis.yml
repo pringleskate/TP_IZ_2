@@ -35,6 +35,12 @@ script:
     - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc/library.h; fi
     #- if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c main.cpp tests.cpp; fi
 
+    - cd TP_IZ_2_multi_thread
+    - mkdir cmake-build-debug
+    - cd cmake-build-debug
+    - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_CONFIGURATION -DTARGET_CPU=$TARGET_CPU
+    - cmake --build .
+    - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc/library_static.h; fi
 
     - cd ../../TP_IZ2_tests
     - mkdir cmake-build-debug

@@ -3,14 +3,20 @@
 //
 
 #include "gtest/gtest.h"
+
 #include <iostream>
+//#include <library_static.h>
+//#include <library.h>
 
 using namespace std;
 
+
 extern "C"
 {
-    #include "../TP_IZ_2_single_thread/inc/library.h"
+    #include "library.h"
+    #include "library_static.h"
 }
+
 
 TEST(testMainFunc, test1)
 {
@@ -56,3 +62,40 @@ TEST(testMainFunc, test2)
     ASSERT_EQ(unique_words, unique_words_real);
 }
 
+TEST(testMainFunc, test3)
+{
+    char *test_1_dir = (char *)"../../test3_single/";
+    char *test_1_res_dir = (char *)"../../test3_single_res/";
+
+    char *test_2_res_dir = (char *)"../../test3_multi_res/";
+
+    char *argv_0 = (char *)"";
+    char *argv[3] = {argv_0, test_1_dir, test_1_res_dir};
+
+    std::clock_t start_time_single_thread = std::clock();
+    count_TF_IDF_metrics(3, argv);
+    std::clock_t end_time_single_thread = std::clock();
+
+    float time_single_thread = ((float)((float)end_time_single_thread - (float)start_time_single_thread) / CLOCKS_PER_SEC) * 1000;
+    printf("\nSingle thread program execution time = %f\n", time_single_thread);
+
+
+
+    char *argv_multi[3] = {argv_0, test_1_dir, test_2_res_dir};
+
+    std::clock_t start_time_multi_thread = std::clock();
+    multi_count_TF_IDF_metrics(3, argv_multi);
+    std::clock_t end_time_multi_thread = std::clock();
+
+    float time_multi_thread = ((float)((float)end_time_multi_thread - (float)start_time_multi_thread) / CLOCKS_PER_SEC) * 1000;
+    printf("Multi thread program execution time = %f\n\n\n", time_multi_thread);
+
+
+    int count_file_single = 0;
+    get_file_count(&count_file_single, test_1_res_dir);
+
+    int count_file_multi = 0;
+    get_file_count(&count_file_multi, test_2_res_dir);
+
+    ASSERT_EQ(count_file_multi, count_file_single);
+}
