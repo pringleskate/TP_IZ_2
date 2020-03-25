@@ -5,8 +5,6 @@
 #include "gtest/gtest.h"
 
 #include <iostream>
-//#include <library_static.h>
-//#include <library.h>
 
 using namespace std;
 

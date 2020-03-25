@@ -7,14 +7,14 @@
 #include <dirent.h>
 #include <ctype.h>
 #include <sys/stat.h>
-//
-//typedef struct Word_metrics {
-//    char **word;
-//    int *quantity;
-//    float *tf_metrics;
-//    float *idf_metrics;
-//    float *tf_idf_metrics;
-//} Word_metrics;
+
+typedef struct Word_metrics {
+    char **word;
+    int *quantity;
+    float *tf_metrics;
+    float *idf_metrics;
+    float *tf_idf_metrics;
+} Word_metrics;
 
 typedef struct
 {
