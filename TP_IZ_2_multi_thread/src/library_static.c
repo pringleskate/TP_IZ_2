@@ -48,7 +48,7 @@ int multi_count_TF_IDF_metrics(int argc, char **argv)
 
 int multi_process_input_files(char **input_files, char **output_files, int count_files)
 {
-        Word_metrics *word_metrics = (Word_metrics *) malloc((count_files ) * sizeof(Word_metrics));
+        multi_Word_metrics *word_metrics = (multi_Word_metrics *) malloc((count_files ) * sizeof(multi_Word_metrics));
 
         if (word_metrics == NULL)
             return 1;
@@ -156,7 +156,7 @@ int multi_process_input_files(char **input_files, char **output_files, int count
 }
 
 
-int multi_initialize_word_metrics(Word_metrics *word_metrics, int count_files, int storage_size)
+int multi_initialize_word_metrics(multi_Word_metrics *word_metrics, int count_files, int storage_size)
 {
     for (int i = 0; i < count_files; i++)
     {
@@ -192,7 +192,7 @@ int multi_initialize_word_metrics(Word_metrics *word_metrics, int count_files, i
     return 0;
 }
 
-void multi_clear_metrics_struct(Word_metrics *metrics, int size)
+void multi_clear_metrics_struct(multi_Word_metrics *metrics, int size)
 {
     if (metrics->word != NULL) {
         for (int i = 0; i < size; i++) {

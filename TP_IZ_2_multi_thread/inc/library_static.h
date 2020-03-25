@@ -8,13 +8,15 @@
 #include <ctype.h>
 #include <sys/stat.h>
 
-typedef struct Word_metrics {
+
+typedef struct multi_Word_metrics {
     char **word;
     int *quantity;
     float *tf_metrics;
     float *idf_metrics;
     float *tf_idf_metrics;
-} Word_metrics;
+} multi_Word_metrics;
+
 
 typedef struct
 {
@@ -24,7 +26,7 @@ typedef struct
     int *all_unique_words;
     int *flags;
     char **input_files;
-    Word_metrics *word_metrics;
+    multi_Word_metrics *word_metrics;
 } thr_data;
 
 #ifdef IS_MACOS
@@ -40,9 +42,9 @@ int multi_count_TF_IDF_metrics(int argc, char **argv);
 
 int multi_process_input_files(char **input_files, char **output_files, int count_files);
 
-int multi_initialize_word_metrics(Word_metrics *word_metrics, int count_files, int storage_size);
+int multi_initialize_word_metrics(multi_Word_metrics *word_metrics, int count_files, int storage_size);
 
-void multi_clear_metrics_struct(Word_metrics *metrics, int size);
+void multi_clear_metrics_struct(multi_Word_metrics *metrics, int size);
 
 //---------------------------------------------------------------
 
@@ -56,17 +58,17 @@ int multi_get_file_names(char **input_files, char **output_files, char *path_inp
 
 //----------------------------------------------------------------
 
-int multi_get_metrics(FILE *input_file, Word_metrics *metrics);
+int multi_get_metrics(FILE *input_file, multi_Word_metrics *metrics);
 
-int multi_update_word_metrics(Word_metrics *metrics, char *ordered_word, int flag, int *unique_words);
+int multi_update_word_metrics(multi_Word_metrics *metrics, char *ordered_word, int flag, int *unique_words);
 
-int multi_check_existing_word_index(Word_metrics *metrics, char *ordered_word, int unique_words);
+int multi_check_existing_word_index(multi_Word_metrics *metrics, char *ordered_word, int unique_words);
 
-void multi_update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int unique_words);
+void multi_update_tf_metrics(multi_Word_metrics *metrics, int all_scanned_words, int unique_words);
 
-int multi_update_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words);
+int multi_update_idf_metrics(multi_Word_metrics *word_metrics, int count_files, int *all_unique_words);
 
-void multi_update_tf_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words);
+void multi_update_tf_idf_metrics(multi_Word_metrics *word_metrics, int count_files, int *all_unique_words);
 
 //-------------------------------------------------------------------
 
@@ -78,8 +80,8 @@ void multi_clear_string(char *string);
 
 void multi_put_in_order(char *string, char *ordered_word);
 
-void multi_write_results(FILE *output_file, Word_metrics *metrics, int unique_words);
+void multi_write_results(FILE *output_file, multi_Word_metrics *metrics, int unique_words);
 
-int multi_write_results_to_files(char **input_files, Word_metrics *word_metrics, int count_files, int *all_unique_words);
+int multi_write_results_to_files(char **input_files, multi_Word_metrics *word_metrics, int count_files, int *all_unique_words);
 
 #endif //TP_IZ_2_MULTI_THREAD_LIBRARY_H

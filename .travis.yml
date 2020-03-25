@@ -50,6 +50,6 @@ script:
     #- if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../src ../inc; fi
     - if [ $TRAVIS_OS_NAME = linux ]; then cppcheck --error-exitcode=1 --inconclusive --enable=all --language=c ../main.cpp ../tests.cpp; fi
 
-    - if [ $TRAVIS_OS_NAME = linux ]; then valgrind --error-exitcode=1 --leak-check=full --show-leak-kinds=all ../TP_IZ2_tests; fi
+    - if [ $TRAVIS_OS_NAME = linux ]; then valgrind --error-exitcode=1 --leak-check=full --show-leak-kinds=all ./TP_IZ2_tests; fi
     - if [ $TRAVIS_OS_NAME = osx ]; then ./TP_IZ2_tests; fi
   

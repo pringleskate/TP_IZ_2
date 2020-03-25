@@ -23,7 +23,7 @@ void  multi_call_get_metrics(void *th_data)
 }
 
 
-int multi_get_metrics(FILE *input_file, Word_metrics *metrics)
+int multi_get_metrics(FILE *input_file, multi_Word_metrics *metrics)
 {
     char *string = (char *) malloc(BUFFER_SIZE * sizeof(char));
     char *ordered_word = (char *) malloc(BUFFER_SIZE * sizeof(char));
@@ -75,7 +75,7 @@ int multi_get_metrics(FILE *input_file, Word_metrics *metrics)
 
 
 
-int multi_update_word_metrics(Word_metrics *metrics, char *ordered_word, int flag, int *unique_words)
+int multi_update_word_metrics(multi_Word_metrics *metrics, char *ordered_word, int flag, int *unique_words)
 {
     if (flag == -1)
     {
@@ -94,7 +94,7 @@ int multi_update_word_metrics(Word_metrics *metrics, char *ordered_word, int fla
 }
 
 
-int multi_check_existing_word_index(Word_metrics *metrics, char *ordered_word, int unique_words)
+int multi_check_existing_word_index(multi_Word_metrics *metrics, char *ordered_word, int unique_words)
 {
     for (int i = 0; i < unique_words; i++)
     {
@@ -106,7 +106,7 @@ int multi_check_existing_word_index(Word_metrics *metrics, char *ordered_word, i
 
 
 
-void multi_update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int unique_words)
+void multi_update_tf_metrics(multi_Word_metrics *metrics, int all_scanned_words, int unique_words)
 {
     for (int i = 0; i < unique_words; i++)
     {
@@ -116,7 +116,7 @@ void multi_update_tf_metrics(Word_metrics *metrics, int all_scanned_words, int u
 }
 
 
-int multi_update_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
+int multi_update_idf_metrics(multi_Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
     for (int i = 0; i < count_files; i++)
     {
@@ -138,7 +138,7 @@ int multi_update_idf_metrics(Word_metrics *word_metrics, int count_files, int *a
 }
 
 
-void multi_update_tf_idf_metrics(Word_metrics *word_metrics, int count_files, int *all_unique_words)
+void multi_update_tf_idf_metrics(multi_Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
     for (int i = 0; i < count_files; i++) ////проходим по массиву структур, количество которых соответствует обработанным файлам
     {
@@ -148,7 +148,7 @@ void multi_update_tf_idf_metrics(Word_metrics *word_metrics, int count_files, in
 }
 
 
-int multi_write_results_to_files(char **input_files, Word_metrics *word_metrics, int count_files, int *all_unique_words)
+int multi_write_results_to_files(char **input_files, multi_Word_metrics *word_metrics, int count_files, int *all_unique_words)
 {
     for (int i = 0; i < count_files; i++)
     {
@@ -167,7 +167,7 @@ int multi_write_results_to_files(char **input_files, Word_metrics *word_metrics,
 }
 
 
-void multi_write_results(FILE *output_file, Word_metrics *metrics, int unique_words)
+void multi_write_results(FILE *output_file, multi_Word_metrics *metrics, int unique_words)
 {
     for (int i = 0; i < unique_words; i++)
     {
